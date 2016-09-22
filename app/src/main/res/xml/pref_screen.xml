@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:key="list_view_color"
+        android:title="Background color"
+        android:summary="Background color switcher"
+        android:defaultValue="false"
+        android:entries="@array/color_array"
+        android:entryValues="@array/color_values"/>
+
+    <ListPreference
+        android:key="list_sorting_order"
+        android:title="Sorting Order"
+        android:summary="Sorting order switcher"
+        android:entries="@array/sorting_order_array"
+        android:entryValues="@array/sorting_order_values"
+        android:defaultValue="0"/>
+
+    <SwitchPreference
+        android:key="switch_bigger_font_size"
+        android:title="Increase font size"
+        android:summary="For better reading increase your font size"
+        android:defaultValue="false"/>
+
+    <ListPreference
+        android:key="list_font_color"
+        android:title="Font color"
+        android:summary="Choose the font color of list entries"
+        android:entries="@array/color_array"
+        android:entryValues="@array/color_values"
+        android:defaultValue="#000000" />
+</PreferenceScreen>

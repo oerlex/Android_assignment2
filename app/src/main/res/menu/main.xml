@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="PRE" app:showAsAction="ifRoom" android:onClick="openPreferences"/>
+    <item android:title="ADD" app:showAsAction="always" android:onClick="addCountry"/>
+
+    <item android:title="@string/ascendingCountry" android:id="@+id/ascCountry"/>
+    <item android:title="@string/descendingCountry" android:id="@+id/desCountry"/>
+    <item android:title="@string/ascendingYear" android:id="@+id/ascYear"/>
+    <item android:title="@string/descendingYear" android:id="@+id/desYear"/>
+
+    <item android:title="Open Settings" android:id="@+id/settings"/>
+
+</menu>

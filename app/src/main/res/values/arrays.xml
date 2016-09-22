@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sorting_order_array">
+        <item>No order specified</item>
+        <item>Last Country first</item>
+        <item>First Country first</item>
+        <item>Alphabetical</item>
+    </string-array>
+    <string-array name="sorting_order_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="color_array">
+        <item>Black</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="color_values">
+        <item>#dcdcdc</item>
+        <item>#c2f5be</item>
+        <item>#65c7ff</item>
+    </string-array>
+</resources>
